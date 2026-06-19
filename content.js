@@ -90,7 +90,16 @@ async function main() {
     );
 
     if (!vendorCode || !title || !brand || !category || !description || images.length === 0 || price <= 0) {
-      console.log("CONTENT SKIPPED:", vendorCode, title);
+      console.log(
+  "CONTENT SKIPPED:",
+  vendorCode,
+  "title=", !!title,
+  "brand=", !!brand,
+  "category=", !!category,
+  "description=", !!description,
+  "images=", images.length,
+  "price=", price
+);
       continue;
     }
 
