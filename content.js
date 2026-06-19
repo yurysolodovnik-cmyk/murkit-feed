@@ -5,12 +5,31 @@ import fs from "fs";
 const FEED_URL =
   "https://fiskars-gratis.com.ua/content/export/eb49a29eda1ed8152f24322544deb94c.xlsx";
 
-function value(row, names) {
-  for (const name of names) {
-    if (row[name] !== undefined && row[name] !== null && String(row[name]).trim() !== "") {
-      return row[name];
+function normalize(s) {
+  return String(s || "")
+    .toLowerCase()
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function value(row, patterns) {
+  const keys = Object.keys(row);
+
+  for (const pattern of patterns) {
+    const foundKey = keys.find((key) =>
+      normalize(key).includes(normalize(pattern))
+    );
+
+    if (
+      foundKey &&
+      row[foundKey] !== undefined &&
+      row[foundKey] !== null &&
+      String(row[foundKey]).trim() !== ""
+    ) {
+      return row[foundKey];
     }
   }
+
   return "";
 }
 
@@ -47,7 +66,9 @@ function splitImages(mainPhoto, gallery) {
       .map((x) => x.trim())
       .filter(Boolean)
       .forEach((x) => {
-        if (x.startsWith("http") && !images.includes(x)) images.push(x);
+        if (x.startsWith("http") && !images.includes(x)) {
+          images.push(x);
+        }
       });
   };
 
@@ -70,47 +91,74 @@ async function main() {
 
   console.log(`Rows found: ${rows.length}`);
 
+  if (rows.length > 0) {
+    console.log("Columns:", Object.keys(rows[0]).join(" | "));
+  }
+
   const offers = [];
 
   for (const row of rows) {
-    const vendorCode = String(value(row, ["Артикул", "vendorCode", "vendor_code", "Код"])).trim();
-    const title = String(
-  value(row, [
-    "Название (UA)",
-    "Название модификации (UA)"
-  ])
-).trim();
-    const brand = String(value(row, ["Бренд", "brand", "vendor"])).trim();
-    const barcode = String(value(row, ["Штрихкод", "barcode", "EAN"])).trim();
-    const category = String(value(row, ["Раздел", "Розділ", "category"])).trim();
-    const categoryId = String(value(row, ["ID раздела", "ID розділу", "category_id", "categoryId"])).trim();
-    const description = String(
-  value(row, [
-    "Описание товара (UA)",
-    "Описание для маркетплейсов (UA)",
-    "Короткое описание (UA)"
-  ])
-).trim();
+    const vendorCode = String(value(row, ["артикул", "vendorcode", "код"])).trim();
 
-    const stock = toNumber(value(row, ["Количество", "Кількість", "quantity_in_stock", "stock"]));
-    const price = toNumber(value(row, ["Цена", "Ціна", "price"]));
+    const title = String(
+      value(row, [
+        "название ua",
+        "название",
+        "назва ua",
+        "назва",
+        "name"
+      ])
+    ).trim();
+
+    const brand = String(value(row, ["бренд", "brand", "vendor"])).trim();
+
+    const barcode = String(
+      value(row, ["штрихкод", "barcode", "ean"])
+    ).trim();
+
+    const category = String(
+      value(row, ["раздел", "розділ", "категория", "category"])
+    ).trim();
+
+    const categoryId = String(
+      value(row, ["id раздела", "id розділу", "categoryid", "category_id"])
+    ).trim();
+
+    const description = cleanDescription(
+      value(row, [
+        "описание товара ua",
+        "описание товара",
+        "описание для маркетплейсов",
+        "опис",
+        "description",
+        "короткое описание"
+      ])
+    );
+
+    const stock = toNumber(
+      value(row, ["количество", "кількість", "quantity", "stock"])
+    );
+
+    const price = toNumber(
+      value(row, ["цена", "ціна", "price"])
+    );
 
     const images = splitImages(
-      value(row, ["Фото", "picture", "image"]),
-      value(row, ["Галерея", "gallery", "images"])
+      value(row, ["фото", "image", "picture"]),
+      value(row, ["галерея", "gallery", "images"])
     );
 
     if (!vendorCode || !title || !brand || !category || !description || images.length === 0 || price <= 0) {
       console.log(
-  "CONTENT SKIPPED:",
-  vendorCode,
-  "title=", !!title,
-  "brand=", !!brand,
-  "category=", !!category,
-  "description=", !!description,
-  "images=", images.length,
-  "price=", price
-);
+        "CONTENT SKIPPED:",
+        vendorCode,
+        "title=", !!title,
+        "brand=", !!brand,
+        "category=", !!category,
+        "description=", !!description,
+        "images=", images.length,
+        "price=", price
+      );
       continue;
     }
 
