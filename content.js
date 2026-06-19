@@ -3,7 +3,7 @@ import xlsx from "xlsx";
 import fs from "fs";
 
 const FEED_URL =
-  "https://fiskars-gratis.com.ua/content/export/eb49a29eda1ed8152f24322544deb94c.xlsx";
+  "https://fiskars-gratis.com.ua/content/export/f21d2ef6d82a517fac09ea84c53cf5c9.xlsx";
 
 function normalize(s) {
   return String(s || "")
