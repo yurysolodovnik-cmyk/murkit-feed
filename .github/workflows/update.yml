@@ -22,13 +22,16 @@ jobs:
       - name: Install packages
         run: npm install
 
-      - name: Run Murkit script
+      - name: Generate offers feed
         run: node murkit.js
 
-      - name: Commit generated feed
+      - name: Generate content feed
+        run: node content.js
+
+      - name: Commit generated feeds
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add offers-response.json
-          git commit -m "Update offers feed" || echo "No changes to commit"
+          git add offers-response.json content.xml
+          git commit -m "Update Murkit feeds" || echo "No changes to commit"
           git push
