@@ -74,12 +74,23 @@ async function main() {
 
   for (const row of rows) {
     const vendorCode = String(value(row, ["Артикул", "vendorCode", "vendor_code", "Код"])).trim();
-    const title = String(value(row, ["Название (UA)", "Назва (UA)", "Название", "Назва", "name"])).trim();
+    const title = String(
+  value(row, [
+    "Название (UA)",
+    "Название модификации (UA)"
+  ])
+).trim();
     const brand = String(value(row, ["Бренд", "brand", "vendor"])).trim();
     const barcode = String(value(row, ["Штрихкод", "barcode", "EAN"])).trim();
     const category = String(value(row, ["Раздел", "Розділ", "category"])).trim();
     const categoryId = String(value(row, ["ID раздела", "ID розділу", "category_id", "categoryId"])).trim();
-    const description = cleanDescription(value(row, ["Описание товара (UA)", "Опис товару (UA)", "description_ua", "description"]));
+    const description = String(
+  value(row, [
+    "Описание товара (UA)",
+    "Описание для маркетплейсов (UA)",
+    "Короткое описание (UA)"
+  ])
+).trim();
 
     const stock = toNumber(value(row, ["Количество", "Кількість", "quantity_in_stock", "stock"]));
     const price = toNumber(value(row, ["Цена", "Ціна", "price"]));
