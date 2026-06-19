@@ -1,0 +1,794 @@
+{
+  "updatedAt": "2026-06-19T14:36:59.790Z",
+  "data": [
+    {
+      "code": "1052045",
+      "price": 2999,
+      "availability": true,
+      "stock": 4,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 3949
+    },
+    {
+      "code": "1015641",
+      "price": 3299,
+      "availability": true,
+      "stock": 1,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 4499
+    },
+    {
+      "code": "1015643",
+      "price": 3999,
+      "availability": true,
+      "stock": 3,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 5399
+    },
+    {
+      "code": "1015640",
+      "price": 3667,
+      "availability": true,
+      "stock": 4,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1015642",
+      "price": 3599,
+      "availability": true,
+      "stock": 28,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 4899
+    },
+    {
+      "code": "1015619",
+      "price": 2399,
+      "availability": false,
+      "stock": 0,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 3099
+    },
+    {
+      "code": "1051085",
+      "price": 2499,
+      "availability": true,
+      "stock": 114,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1075437",
+      "price": 1699,
+      "availability": true,
+      "stock": 8,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 1999
+    },
+    {
+      "code": "1052276",
+      "price": 3999,
+      "availability": true,
+      "stock": 3,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 4949
+    },
+    {
+      "code": "1028376",
+      "price": 1599,
+      "availability": true,
+      "stock": 79,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1028375",
+      "price": 2199,
+      "availability": true,
+      "stock": 5,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1028374",
+      "price": 2099,
+      "availability": true,
+      "stock": 6,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1066715",
+      "price": 1199,
+      "availability": true,
+      "stock": 7,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1066716",
+      "price": 1299,
+      "availability": true,
+      "stock": 15,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1067540",
+      "price": 1749,
+      "availability": true,
+      "stock": 6,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 2099
+    },
+    {
+      "code": "1014776",
+      "price": 1600,
+      "availability": true,
+      "stock": 3,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1005016",
+      "price": 2300,
+      "availability": true,
+      "stock": 4,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1014823",
+      "price": 1860,
+      "availability": true,
+      "stock": 4,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1014773",
+      "price": 2000,
+      "availability": true,
+      "stock": 16,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1024472",
+      "price": 899,
+      "availability": true,
+      "stock": 101,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 1600
+    },
+    {
+      "code": "1066708",
+      "price": 1999,
+      "availability": true,
+      "stock": 1,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 2399
+    },
+    {
+      "code": "1066713",
+      "price": 2699,
+      "availability": true,
+      "stock": 4,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1066724",
+      "price": 1799,
+      "availability": true,
+      "stock": 40,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1070715",
+      "price": 2099,
+      "availability": true,
+      "stock": 162,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1014810",
+      "price": 649,
+      "availability": true,
+      "stock": 4,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 1199
+    },
+    {
+      "code": "1001577",
+      "price": 1069,
+      "availability": true,
+      "stock": 1,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 3299
+    },
+    {
+      "code": "1011570",
+      "price": 349,
+      "availability": true,
+      "stock": 4,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1004814",
+      "price": 999,
+      "availability": true,
+      "stock": 4,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 1680
+    },
+    {
+      "code": "1071936",
+      "price": 1999,
+      "availability": true,
+      "stock": 8,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 2449
+    },
+    {
+      "code": "1070675",
+      "price": 899,
+      "availability": true,
+      "stock": 4,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 1600
+    },
+    {
+      "code": "1004808",
+      "price": 999,
+      "availability": true,
+      "stock": 3,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 1480
+    },
+    {
+      "code": "1014815",
+      "price": 999,
+      "availability": true,
+      "stock": 2,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 1400
+    },
+    {
+      "code": "1005044",
+      "price": 999,
+      "availability": true,
+      "stock": 1,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 1600
+    },
+    {
+      "code": "1014792",
+      "price": 999,
+      "availability": true,
+      "stock": 3,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 2200
+    },
+    {
+      "code": "1052090",
+      "price": 298,
+      "availability": false,
+      "stock": 0,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1025564",
+      "price": 277,
+      "availability": true,
+      "stock": 1,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 319
+    },
+    {
+      "code": "1025563",
+      "price": 277,
+      "availability": true,
+      "stock": 3,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 319
+    },
+    {
+      "code": "1025565",
+      "price": 377,
+      "availability": true,
+      "stock": 8,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1027034",
+      "price": 377,
+      "availability": true,
+      "stock": 15,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1025567",
+      "price": 549,
+      "availability": true,
+      "stock": 6,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1027033",
+      "price": 277,
+      "availability": true,
+      "stock": 14,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1025566",
+      "price": 219,
+      "availability": false,
+      "stock": 0,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 340
+    },
+    {
+      "code": "1018608",
+      "price": 899,
+      "availability": true,
+      "stock": 3,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 1300
+    },
+    {
+      "code": "1020125",
+      "price": 2499,
+      "availability": true,
+      "stock": 11,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 3999
+    },
+    {
+      "code": "1020126",
+      "price": 1999,
+      "availability": true,
+      "stock": 8,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 2999
+    },
+    {
+      "code": "1000728",
+      "price": 599,
+      "availability": true,
+      "stock": 20,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1072103",
+      "price": 377,
+      "availability": true,
+      "stock": 16,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1027019",
+      "price": 699,
+      "availability": true,
+      "stock": 4,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1001530",
+      "price": 1399,
+      "availability": true,
+      "stock": 1,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 2499
+    },
+    {
+      "code": "1026916",
+      "price": 999,
+      "availability": true,
+      "stock": 119,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1057162",
+      "price": 699,
+      "availability": false,
+      "stock": 0,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 1049
+    },
+    {
+      "code": "1057169",
+      "price": 1049,
+      "availability": true,
+      "stock": 9,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 2077
+    },
+    {
+      "code": "1000567",
+      "price": 599,
+      "availability": true,
+      "stock": 18,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 899
+    },
+    {
+      "code": "1024711",
+      "price": 999,
+      "availability": true,
+      "stock": 165,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1000660",
+      "price": 899,
+      "availability": true,
+      "stock": 25,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 1228
+    },
+    {
+      "code": "1023492",
+      "price": 1399,
+      "availability": false,
+      "stock": 0,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 1600
+    },
+    {
+      "code": "1024720",
+      "price": 1377,
+      "availability": true,
+      "stock": 24,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1056927",
+      "price": 1199,
+      "availability": true,
+      "stock": 6,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 1699
+    },
+    {
+      "code": "1019608",
+      "price": 1399,
+      "availability": true,
+      "stock": 6,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1001587",
+      "price": 799,
+      "availability": true,
+      "stock": 2,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 2500
+    },
+    {
+      "code": "1011611",
+      "price": 799,
+      "availability": true,
+      "stock": 2,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 1600
+    },
+    {
+      "code": "1014828",
+      "price": 1749,
+      "availability": true,
+      "stock": 12,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1003466",
+      "price": 1377,
+      "availability": true,
+      "stock": 40,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 1699
+    },
+    {
+      "code": "1001584",
+      "price": 1899,
+      "availability": true,
+      "stock": 60,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1026931",
+      "price": 2099,
+      "availability": false,
+      "stock": 0,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1026827",
+      "price": 1499,
+      "availability": true,
+      "stock": 4,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1001433",
+      "price": 1899,
+      "availability": true,
+      "stock": 4,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 2199
+    },
+    {
+      "code": "1026917",
+      "price": 1549,
+      "availability": true,
+      "stock": 62,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1001538",
+      "price": 799,
+      "availability": true,
+      "stock": 5,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 2179
+    },
+    {
+      "code": "1026826",
+      "price": 1477,
+      "availability": true,
+      "stock": 30,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1061193",
+      "price": 1949,
+      "availability": true,
+      "stock": 90,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1061192",
+      "price": 1949,
+      "availability": true,
+      "stock": 6,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1001622",
+      "price": 999,
+      "availability": true,
+      "stock": 119,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1027216",
+      "price": 1799,
+      "availability": false,
+      "stock": 0,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 10499
+    },
+    {
+      "code": "1027215",
+      "price": 1699,
+      "availability": true,
+      "stock": 1,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 8399
+    },
+    {
+      "code": "1057585",
+      "price": 899,
+      "availability": true,
+      "stock": 24,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1000601",
+      "price": 799,
+      "availability": false,
+      "stock": 0,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 1099
+    },
+    {
+      "code": "1026797",
+      "price": 849,
+      "availability": true,
+      "stock": 12,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1001317",
+      "price": 699,
+      "availability": true,
+      "stock": 5,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1027528",
+      "price": 2300,
+      "availability": true,
+      "stock": 226,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1026930",
+      "price": 2699,
+      "availability": true,
+      "stock": 59,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12
+    },
+    {
+      "code": "1001553",
+      "price": 1699,
+      "availability": true,
+      "stock": 33,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 3299
+    },
+    {
+      "code": "1073084",
+      "price": 5999,
+      "availability": true,
+      "stock": 5,
+      "days_to_dispatch": 0,
+      "warranty_type": "manufacturer",
+      "warranty_period": 12,
+      "old_price": 7399
+    }
+  ]
+}
