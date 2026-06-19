@@ -62,8 +62,14 @@ async function main() {
       const availability = toBoolAvailability(availabilityRaw, stock);
 
       if (!code || price <= 0) {
-        return null;
-      }
+    console.log(
+      "SKIPPED:",
+      code,
+      "price:",
+      price
+    );
+    return null;
+}
 
       const item = {
         code,
