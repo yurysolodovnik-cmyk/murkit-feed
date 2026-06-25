@@ -20,6 +20,11 @@ function toNumber(v) {
 }
 
 function toBoolAvailability(v, stock) {
+  // Якщо залишок 0 або менше — товар недоступний
+  if (stock <= 0) {
+    return false;
+  }
+
   const text = String(v || "").toLowerCase().trim();
 
   if (text.includes("в наличии")) return true;
@@ -28,9 +33,9 @@ function toBoolAvailability(v, stock) {
   if (text === "true") return true;
   if (text === "1") return true;
 
-  if (stock > 0) return true;
-
-  return false;
+  // Якщо залишок є, але текст наявності порожній або незрозумілий —
+  // все одно вважаємо товар доступним
+  return true;
 }
 function getDispatchDays() {
   const day = new Date().getDay();
