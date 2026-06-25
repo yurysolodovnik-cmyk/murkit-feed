@@ -32,7 +32,16 @@ function toBoolAvailability(v, stock) {
 
   return false;
 }
+function getDispatchDays() {
+  const day = new Date().getDay();
 
+  // 0 = Неділя, 1 = Понеділок, ..., 5 = П'ятниця, 6 = Субота
+  if (day === 5) return 3; // у пʼятницю відправка після вихідних
+  if (day === 6) return 2; // у суботу
+  if (day === 0) return 1; // у неділю
+
+  return 0; // понеділок-четвер
+}
 async function main() {
   console.log("Downloading XLSX feed...");
 
@@ -71,15 +80,23 @@ async function main() {
     return null;
 }
 
-      const item = {
-        code,
-        price,
-        availability,
-        stock,
-        days_to_dispatch: 0,
-        warranty_type: "manufacturer",
-        warranty_period: 12
-      };
+      const dispatchDays = getDispatchDays();
+
+const item = {
+  code,
+  price,
+  availability,
+  stock,
+  days_to_dispatch: dispatchDays,
+  warranty_type: "manufacturer",
+  warranty_period: 12,
+  warehouses: [
+    {
+      id: "01",
+      stock: stock
+    }
+  ]
+};
 
       if (oldPrice > price) {
         item.old_price = oldPrice;
