@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T13:22:25.269Z",
+  "updatedAt": "2026-06-25T13:30:50.326Z",
   "data": [
     {
       "code": "1052045",
@@ -20,7 +20,7 @@
     {
       "code": "1015641",
       "price": 3299,
-      "availability": true,
+      "availability": false,
       "stock": 0,
       "days_to_dispatch": 0,
       "warranty_type": "manufacturer",
@@ -83,7 +83,7 @@
     {
       "code": "1015619",
       "price": 2399,
-      "availability": true,
+      "availability": false,
       "stock": 0,
       "days_to_dispatch": 0,
       "warranty_type": "manufacturer",
@@ -671,7 +671,7 @@
     {
       "code": "1052090",
       "price": 298,
-      "availability": true,
+      "availability": false,
       "stock": 0,
       "days_to_dispatch": 0,
       "warranty_type": "manufacturer",
@@ -778,7 +778,7 @@
     {
       "code": "1025566",
       "price": 219,
-      "availability": true,
+      "availability": false,
       "stock": 0,
       "days_to_dispatch": 0,
       "warranty_type": "manufacturer",
@@ -887,7 +887,7 @@
     {
       "code": "1001530",
       "price": 1399,
-      "availability": true,
+      "availability": false,
       "stock": 0,
       "days_to_dispatch": 0,
       "warranty_type": "manufacturer",
@@ -918,7 +918,7 @@
     {
       "code": "1057162",
       "price": 699,
-      "availability": true,
+      "availability": false,
       "stock": 0,
       "days_to_dispatch": 0,
       "warranty_type": "manufacturer",
@@ -1599,7 +1599,7 @@
     {
       "code": "1026931",
       "price": 2099,
-      "availability": true,
+      "availability": false,
       "stock": 0,
       "days_to_dispatch": 0,
       "warranty_type": "manufacturer",
@@ -1811,7 +1811,7 @@
     {
       "code": "1027216",
       "price": 1799,
-      "availability": true,
+      "availability": false,
       "stock": 0,
       "days_to_dispatch": 0,
       "warranty_type": "manufacturer",
@@ -2386,7 +2386,7 @@
     {
       "code": "1000601",
       "price": 799,
-      "availability": true,
+      "availability": false,
       "stock": 0,
       "days_to_dispatch": 0,
       "warranty_type": "manufacturer",
@@ -3596,7 +3596,7 @@
     {
       "code": "1014053",
       "price": 1899,
-      "availability": true,
+      "availability": false,
       "stock": 0,
       "days_to_dispatch": 0,
       "warranty_type": "manufacturer",
@@ -3838,7 +3838,7 @@
     {
       "code": "1000788",
       "price": 499,
-      "availability": true,
+      "availability": false,
       "stock": 0,
       "days_to_dispatch": 0,
       "warranty_type": "manufacturer",
@@ -3853,7 +3853,7 @@
     {
       "code": "1028483",
       "price": 799,
-      "availability": true,
+      "availability": false,
       "stock": 0,
       "days_to_dispatch": 0,
       "warranty_type": "manufacturer",
